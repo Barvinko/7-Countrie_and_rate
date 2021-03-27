@@ -41,7 +41,7 @@
         <span> ${item.name} (${item.code} - ${item.txt})</span>
         <span>Курс ${item.rate} на ${item.exchangedate}</span>
         </div>`
-        )
+        ).join('');
 
     console.log(dataCountry);
     console.log(dataNBU);
