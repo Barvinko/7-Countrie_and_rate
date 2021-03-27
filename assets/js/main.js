@@ -36,7 +36,7 @@
     //create HTML code use data from us array 
     let box = document.querySelector('.listCountry');
     box.innerHTML = data.map(item => 
-        `<div class="border">
+        `<div class="border mb-2">
         <img class="border" src="${item.flag}" alt="flag">
         <span> ${item.name} (${item.code} - ${item.txt})</span>
         <span>Курс ${item.rate} на ${item.exchangedate}</span>
